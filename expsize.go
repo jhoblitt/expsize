@@ -9,9 +9,24 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/ulikunitz/xz"
 )
+
+type objectStats struct {
+	sum   int64
+	count int64
+	min   int64
+	max   int64
+}
+
+func (o *objectStats) mean() int64 {
+	if o.count == 0 {
+		return 0
+	}
+	return o.sum / o.count
+}
 
 func main() {
 	file := flag.String("file", "", "text dump of s3 files")
@@ -29,35 +44,53 @@ func main() {
 		log.Fatal(err)
 	}
 
-	maxSize := make(map[string]int64, 500)
+	object := make(map[string]*objectStats, 500)
+
+	cutoff, _ := time.Parse("2006-01-02", "2025-05-20")
 
 	scanner := bufio.NewScanner(r)
 	for scanner.Scan() {
 		col := strings.Fields(scanner.Text())
+
+		date, _ := time.Parse("2006/01/02", col[0])
+		if date.Before(cutoff) {
+			// fmt.Printf("Skipping %s %s, before cutoff date %s\n", col[0], date, cutoff.Format("2006-01-02"))
+			continue
+		}
+
 		size, _ := strconv.ParseInt(col[2], 10, 64)
 		// remove the first 52 characters from the filename
 		name := col[3][51:]
 
-		current, ok := maxSize[name]
+		current, ok := object[name]
 		if !ok {
 			// first time this filename has been seen
-			maxSize[name] = size
+			current = &objectStats{}
+			object[name] = current
 		}
 
-		if size > current {
-			// new maximum size for this filename
-			maxSize[name] = size
+		current.count++
+		current.sum += size
+
+		if size < current.min || current.min == 0 {
+			// new min size for this object
+			current.min = size
 		}
 
-		// fmt.Printf("name %q, size %d\n", name, size)
+		if size > current.max {
+			// new max size for this object
+			current.max = size
+		}
+
+		// fmt.Printf("name %q %v\n", name, current)
 	}
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
 
 	// create a slice of keys that can be sorted
-	keys := make([]string, 0, len(maxSize))
-	for k := range maxSize {
+	keys := make([]string, 0, len(object))
+	for k := range object {
 		keys = append(keys, k)
 	}
 
@@ -65,10 +98,11 @@ func main() {
 
 	totalSize := int64(0)
 	for _, name := range keys {
-		fmt.Printf("%s %d\n", name, maxSize[name])
-		totalSize += maxSize[name]
+		o := object[name]
+		fmt.Printf("%s max: %d mean: %d min: %d\n", name, o.max, o.mean(), o.min)
+		totalSize += object[name].max
 	}
 
-	fmt.Printf("Total number of files: %d\n", len(maxSize))
+	fmt.Printf("Total number of files: %d\n", len(object))
 	fmt.Printf("Total size of all files: %d bytes\n", totalSize)
 }
