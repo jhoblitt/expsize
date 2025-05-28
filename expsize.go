@@ -30,6 +30,8 @@ func (o *objectStats) mean() int64 {
 
 func main() {
 	file := flag.String("file", "", "text dump of s3 files")
+	after := flag.String("after", "", "ignore files before this date (YYYY-MM-DD)")
+	before := flag.String("before", "", "ignore files after this date (YYYY-MM-DD)")
 	flag.Parse()
 
 	f, err := os.Open(*file)
@@ -37,6 +39,22 @@ func main() {
 		log.Fatal(err)
 	}
 	defer f.Close()
+
+	var cutoffBefore time.Time
+	if *after != "" {
+		cutoffBefore, err = time.Parse("2006-01-02", *after)
+		if err != nil {
+			log.Fatalf("Invalid date format for --after: %v", err)
+		}
+	}
+
+	var cutoffAfter time.Time
+	if *before != "" {
+		cutoffAfter, err = time.Parse("2006-01-02", *before)
+		if err != nil {
+			log.Fatalf("Invalid date format for --before: %v", err)
+		}
+	}
 
 	// Wrap the file with an XZ reader (streams & checks CRCs for you).
 	r, err := xz.NewReader(f)
@@ -46,15 +64,17 @@ func main() {
 
 	object := make(map[string]*objectStats, 500)
 
-	cutoff, _ := time.Parse("2006-01-02", "2025-05-20")
-
 	scanner := bufio.NewScanner(r)
 	for scanner.Scan() {
 		col := strings.Fields(scanner.Text())
 
 		date, _ := time.Parse("2006/01/02", col[0])
-		if date.Before(cutoff) {
-			// fmt.Printf("Skipping %s %s, before cutoff date %s\n", col[0], date, cutoff.Format("2006-01-02"))
+		if *after != "" && date.Before(cutoffBefore) {
+			// fmt.Printf("Skipping %s %s, before cutoff date %s\n", col[0], date, cutoffBefore.Format("2006-01-02"))
+			continue
+		}
+		if *before != "" && date.After(cutoffAfter) {
+			// fmt.Printf("Skipping %s %s, after cutoff date %s\n", col[0], date, cutoffAfter.Format("2006-01-02"))
 			continue
 		}
 
