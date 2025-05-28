@@ -11,14 +11,16 @@ import (
 	"strings"
 	"time"
 
+	"gopkg.in/yaml.v3"
+
 	"github.com/ulikunitz/xz"
 )
 
 type objectStats struct {
 	sum   int64
 	count int64
-	min   int64
-	max   int64
+	Min   int64
+	Max   int64
 }
 
 func (o *objectStats) mean() int64 {
@@ -92,14 +94,14 @@ func main() {
 		current.count++
 		current.sum += size
 
-		if size < current.min || current.min == 0 {
+		if size < current.Min || current.Min == 0 {
 			// new min size for this object
-			current.min = size
+			current.Min = size
 		}
 
-		if size > current.max {
+		if size > current.Max {
 			// new max size for this object
-			current.max = size
+			current.Max = size
 		}
 
 		// fmt.Printf("name %q %v\n", name, current)
@@ -119,10 +121,24 @@ func main() {
 	totalSize := int64(0)
 	for _, name := range keys {
 		o := object[name]
-		fmt.Printf("%s max: %d mean: %d min: %d\n", name, o.max, o.mean(), o.min)
-		totalSize += object[name].max
+		totalSize += o.Max
+		// fmt.Printf("%s max: %d mean: %d min: %d\n", name, o.Max, o.mean(), o.Min)
+	}
+	//
+	// fmt.Printf("Total number of files: %d\n", len(object))
+	// fmt.Printf("Total size of all files: %d bytes\n", totalSize)
+
+	report := make(map[string]interface{}, 0)
+	report["files"] = object
+	report["summary"] = map[string]interface{}{
+		"total_files":      len(object),
+		"total_size_bytes": totalSize,
 	}
 
-	fmt.Printf("Total number of files: %d\n", len(object))
-	fmt.Printf("Total size of all files: %d bytes\n", totalSize)
+	data, err := yaml.Marshal(&report)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Print(string(data))
 }
