@@ -119,9 +119,18 @@ func main() {
 	sort.Strings(keys)
 
 	totalSize := int64(0)
+	minSize := int64(0)
+	maxSize := int64(0)
 	for _, name := range keys {
 		o := object[name]
 		totalSize += o.Max
+		if o.Min < minSize || minSize == 0 {
+			minSize = o.Min
+		}
+
+		if o.Max > maxSize {
+			maxSize = o.Max
+		}
 		// fmt.Printf("%s max: %d mean: %d min: %d\n", name, o.Max, o.mean(), o.Min)
 	}
 	//
@@ -133,6 +142,8 @@ func main() {
 	report["summary"] = map[string]interface{}{
 		"total_files":      len(object),
 		"total_size_bytes": totalSize,
+		"min_file_bytes":   minSize,
+		"max_file_bytes":   maxSize,
 	}
 
 	data, err := yaml.Marshal(&report)
