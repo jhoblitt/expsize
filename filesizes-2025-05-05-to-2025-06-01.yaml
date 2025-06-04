@@ -1,0 +1,1245 @@
+files:
+    R00_SG0_guider.fits:
+        min: 11520
+        max: 28820160
+    R00_SG0_guider.json:
+        min: 2453
+        max: 2863
+    R00_SG1_guider.fits:
+        min: 11520
+        max: 28379520
+    R00_SG1_guider.json:
+        min: 2453
+        max: 2863
+    R00_SW0.fits:
+        min: 6180480
+        max: 14397120
+    R00_SW0.json:
+        min: 2530
+        max: 3072
+    R00_SW1.fits:
+        min: 6177600
+        max: 13861440
+    R00_SW1.json:
+        min: 2530
+        max: 3072
+    R01_S00.fits:
+        min: 10319040
+        max: 27129600
+    R01_S00.json:
+        min: 2530
+        max: 3044
+    R01_S01.fits:
+        min: 10310400
+        max: 27636480
+    R01_S01.json:
+        min: 2530
+        max: 3044
+    R01_S02.fits:
+        min: 10258560
+        max: 27299520
+    R01_S02.json:
+        min: 2530
+        max: 3044
+    R01_S10.fits:
+        min: 10290240
+        max: 25822080
+    R01_S10.json:
+        min: 2530
+        max: 3044
+    R01_S11.fits:
+        min: 10301760
+        max: 27627840
+    R01_S11.json:
+        min: 2530
+        max: 3044
+    R01_S12.fits:
+        min: 10321920
+        max: 27299520
+    R01_S12.json:
+        min: 2530
+        max: 3044
+    R01_S20.fits:
+        min: 10301760
+        max: 27385920
+    R01_S20.json:
+        min: 2530
+        max: 3044
+    R01_S21.fits:
+        min: 10278720
+        max: 26850240
+    R01_S21.json:
+        min: 2530
+        max: 3044
+    R01_S22.fits:
+        min: 10321920
+        max: 27241920
+    R01_S22.json:
+        min: 2530
+        max: 3044
+    R02_S00.fits:
+        min: 10324800
+        max: 27172800
+    R02_S00.json:
+        min: 2530
+        max: 3043
+    R02_S01.fits:
+        min: 10370880
+        max: 27175680
+    R02_S01.json:
+        min: 2530
+        max: 3043
+    R02_S02.fits:
+        min: 10278720
+        max: 27040320
+    R02_S02.json:
+        min: 2530
+        max: 3043
+    R02_S10.fits:
+        min: 10339200
+        max: 27233280
+    R02_S10.json:
+        min: 2530
+        max: 3043
+    R02_S11.fits:
+        min: 10342080
+        max: 27233280
+    R02_S11.json:
+        min: 2530
+        max: 3043
+    R02_S12.fits:
+        min: 10356480
+        max: 26628480
+    R02_S12.json:
+        min: 2530
+        max: 3043
+    R02_S20.fits:
+        min: 10290240
+        max: 26179200
+    R02_S20.json:
+        min: 2531
+        max: 3043
+    R02_S21.fits:
+        min: 10301760
+        max: 27161280
+    R02_S21.json:
+        min: 2531
+        max: 3043
+    R02_S22.fits:
+        min: 10365120
+        max: 26879040
+    R02_S22.json:
+        min: 2531
+        max: 3043
+    R03_S00.fits:
+        min: 10316160
+        max: 26841600
+    R03_S00.json:
+        min: 2531
+        max: 3044
+    R03_S01.fits:
+        min: 10327680
+        max: 26792640
+    R03_S01.json:
+        min: 2531
+        max: 3044
+    R03_S02.fits:
+        min: 10301760
+        max: 26942400
+    R03_S02.json:
+        min: 2531
+        max: 3044
+    R03_S10.fits:
+        min: 10319040
+        max: 41486400
+    R03_S10.json:
+        min: 2531
+        max: 3044
+    R03_S11.fits:
+        min: 10327680
+        max: 40829760
+    R03_S11.json:
+        min: 2531
+        max: 3044
+    R03_S12.fits:
+        min: 10342080
+        max: 40970880
+    R03_S12.json:
+        min: 2531
+        max: 3044
+    R03_S20.fits:
+        min: 10347840
+        max: 25479360
+    R03_S20.json:
+        min: 2529
+        max: 3044
+    R03_S21.fits:
+        min: 10313280
+        max: 27161280
+    R03_S21.json:
+        min: 2529
+        max: 3044
+    R03_S22.fits:
+        min: 10278720
+        max: 27316800
+    R03_S22.json:
+        min: 2529
+        max: 3044
+    R04_SG0_guider.fits:
+        min: 11520
+        max: 28382400
+    R04_SG0_guider.json:
+        min: 2454
+        max: 2862
+    R04_SG1_guider.fits:
+        min: 11520
+        max: 28670400
+    R04_SG1_guider.json:
+        min: 2453
+        max: 2862
+    R04_SW0.fits:
+        min: 6128640
+        max: 13749120
+    R04_SW0.json:
+        min: 2529
+        max: 3072
+    R04_SW1.fits:
+        min: 6088320
+        max: 14446080
+    R04_SW1.json:
+        min: 2529
+        max: 3072
+    R10_S00.fits:
+        min: 10255680
+        max: 26648640
+    R10_S00.json:
+        min: 2529
+        max: 3044
+    R10_S01.fits:
+        min: 10296000
+        max: 27478080
+    R10_S01.json:
+        min: 2529
+        max: 3044
+    R10_S02.fits:
+        min: 10324800
+        max: 26884800
+    R10_S02.json:
+        min: 2529
+        max: 3044
+    R10_S10.fits:
+        min: 10319040
+        max: 26976960
+    R10_S10.json:
+        min: 2531
+        max: 3045
+    R10_S11.fits:
+        min: 10290240
+        max: 26568000
+    R10_S11.json:
+        min: 2531
+        max: 3045
+    R10_S12.fits:
+        min: 10252800
+        max: 27449280
+    R10_S12.json:
+        min: 2531
+        max: 3045
+    R10_S20.fits:
+        min: 10244160
+        max: 26861760
+    R10_S20.json:
+        min: 2530
+        max: 3045
+    R10_S21.fits:
+        min: 10229760
+        max: 27155520
+    R10_S21.json:
+        min: 2530
+        max: 3045
+    R10_S22.fits:
+        min: 10229760
+        max: 27152640
+    R10_S22.json:
+        min: 2530
+        max: 3045
+    R11_S00.fits:
+        min: 10321920
+        max: 27040320
+    R11_S00.json:
+        min: 2538
+        max: 3053
+    R11_S01.fits:
+        min: 10290240
+        max: 26979840
+    R11_S01.json:
+        min: 2538
+        max: 3053
+    R11_S02.fits:
+        min: 10298880
+        max: 26755200
+    R11_S02.json:
+        min: 2538
+        max: 3053
+    R11_S10.fits:
+        min: 10226880
+        max: 26916480
+    R11_S10.json:
+        min: 2538
+        max: 3052
+    R11_S11.fits:
+        min: 10284480
+        max: 26671680
+    R11_S11.json:
+        min: 2538
+        max: 3052
+    R11_S12.fits:
+        min: 10238400
+        max: 26942400
+    R11_S12.json:
+        min: 2538
+        max: 3052
+    R11_S20.fits:
+        min: 10290240
+        max: 26616960
+    R11_S20.json:
+        min: 2538
+        max: 3051
+    R11_S21.fits:
+        min: 10290240
+        max: 26703360
+    R11_S21.json:
+        min: 2538
+        max: 3051
+    R11_S22.fits:
+        min: 10310400
+        max: 26913600
+    R11_S22.json:
+        min: 2538
+        max: 3051
+    R12_S00.fits:
+        min: 10362240
+        max: 27311040
+    R12_S00.json:
+        min: 2539
+        max: 3052
+    R12_S01.fits:
+        min: 10350720
+        max: 26504640
+    R12_S01.json:
+        min: 2539
+        max: 3052
+    R12_S02.fits:
+        min: 10327680
+        max: 27339840
+    R12_S02.json:
+        min: 2539
+        max: 3052
+    R12_S10.fits:
+        min: 10281600
+        max: 27066240
+    R12_S10.json:
+        min: 2538
+        max: 3052
+    R12_S11.fits:
+        min: 10336320
+        max: 26890560
+    R12_S11.json:
+        min: 2538
+        max: 3052
+    R12_S12.fits:
+        min: 10301760
+        max: 27031680
+    R12_S12.json:
+        min: 2538
+        max: 3052
+    R12_S20.fits:
+        min: 10393920
+        max: 27316800
+    R12_S20.json:
+        min: 2538
+        max: 3052
+    R12_S21.fits:
+        min: 10356480
+        max: 27190080
+    R12_S21.json:
+        min: 2538
+        max: 3052
+    R12_S22.fits:
+        min: 10388160
+        max: 26965440
+    R12_S22.json:
+        min: 2538
+        max: 3052
+    R13_S00.fits:
+        min: 10324800
+        max: 27169920
+    R13_S00.json:
+        min: 2537
+        max: 3053
+    R13_S01.fits:
+        min: 10327680
+        max: 27086400
+    R13_S01.json:
+        min: 2537
+        max: 3053
+    R13_S02.fits:
+        min: 10336320
+        max: 26619840
+    R13_S02.json:
+        min: 2537
+        max: 3053
+    R13_S10.fits:
+        min: 10342080
+        max: 26812800
+    R13_S10.json:
+        min: 2538
+        max: 3053
+    R13_S11.fits:
+        min: 10342080
+        max: 26994240
+    R13_S11.json:
+        min: 2538
+        max: 3053
+    R13_S12.fits:
+        min: 10296000
+        max: 27345600
+    R13_S12.json:
+        min: 2538
+        max: 3053
+    R13_S20.fits:
+        min: 10310400
+        max: 26994240
+    R13_S20.json:
+        min: 2537
+        max: 3053
+    R13_S21.fits:
+        min: 10301760
+        max: 27371520
+    R13_S21.json:
+        min: 2537
+        max: 3053
+    R13_S22.fits:
+        min: 10319040
+        max: 26847360
+    R13_S22.json:
+        min: 2537
+        max: 3053
+    R14_S00.fits:
+        min: 10281600
+        max: 26544960
+    R14_S00.json:
+        min: 2537
+        max: 3052
+    R14_S01.fits:
+        min: 10321920
+        max: 26429760
+    R14_S01.json:
+        min: 2537
+        max: 3052
+    R14_S02.fits:
+        min: 10316160
+        max: 26498880
+    R14_S02.json:
+        min: 2537
+        max: 3052
+    R14_S10.fits:
+        min: 10342080
+        max: 27443520
+    R14_S10.json:
+        min: 2538
+        max: 3052
+    R14_S11.fits:
+        min: 10278720
+        max: 27080640
+    R14_S11.json:
+        min: 2538
+        max: 3052
+    R14_S12.fits:
+        min: 10350720
+        max: 27236160
+    R14_S12.json:
+        min: 2538
+        max: 3052
+    R14_S20.fits:
+        min: 10293120
+        max: 27817920
+    R14_S20.json:
+        min: 2538
+        max: 3052
+    R14_S21.fits:
+        min: 10307520
+        max: 27190080
+    R14_S21.json:
+        min: 2538
+        max: 3052
+    R14_S22.fits:
+        min: 10368000
+        max: 26602560
+    R14_S22.json:
+        min: 2538
+        max: 3052
+    R20_S00.fits:
+        min: 10330560
+        max: 26619840
+    R20_S00.json:
+        min: 2530
+        max: 3045
+    R20_S01.fits:
+        min: 10350720
+        max: 26841600
+    R20_S01.json:
+        min: 2530
+        max: 3045
+    R20_S02.fits:
+        min: 10344960
+        max: 27092160
+    R20_S02.json:
+        min: 2530
+        max: 3045
+    R20_S10.fits:
+        min: 10402560
+        max: 26812800
+    R20_S10.json:
+        min: 2530
+        max: 3045
+    R20_S11.fits:
+        min: 10373760
+        max: 27120960
+    R20_S11.json:
+        min: 2530
+        max: 3045
+    R20_S12.fits:
+        min: 10388160
+        max: 26686080
+    R20_S12.json:
+        min: 2530
+        max: 3045
+    R20_S20.fits:
+        min: 10336320
+        max: 27155520
+    R20_S20.json:
+        min: 2530
+        max: 3044
+    R20_S21.fits:
+        min: 10385280
+        max: 27440640
+    R20_S21.json:
+        min: 2530
+        max: 3044
+    R20_S22.fits:
+        min: 10330560
+        max: 27371520
+    R20_S22.json:
+        min: 2530
+        max: 3044
+    R21_S00.fits:
+        min: 10359360
+        max: 27123840
+    R21_S00.json:
+        min: 2538
+        max: 3053
+    R21_S01.fits:
+        min: 10368000
+        max: 27100800
+    R21_S01.json:
+        min: 2538
+        max: 3053
+    R21_S02.fits:
+        min: 10359360
+        max: 26720640
+    R21_S02.json:
+        min: 2538
+        max: 3053
+    R21_S10.fits:
+        min: 10336320
+        max: 27311040
+    R21_S10.json:
+        min: 2539
+        max: 3053
+    R21_S11.fits:
+        min: 10385280
+        max: 26907840
+    R21_S11.json:
+        min: 2539
+        max: 3053
+    R21_S12.fits:
+        min: 10307520
+        max: 27025920
+    R21_S12.json:
+        min: 2539
+        max: 3053
+    R21_S20.fits:
+        min: 10321920
+        max: 27126720
+    R21_S20.json:
+        min: 2539
+        max: 3053
+    R21_S21.fits:
+        min: 10327680
+        max: 26884800
+    R21_S21.json:
+        min: 2539
+        max: 3053
+    R21_S22.fits:
+        min: 10319040
+        max: 27080640
+    R21_S22.json:
+        min: 2539
+        max: 3053
+    R22_S00.fits:
+        min: 10255680
+        max: 26671680
+    R22_S00.json:
+        min: 2538
+        max: 3052
+    R22_S01.fits:
+        min: 10339200
+        max: 26625600
+    R22_S01.json:
+        min: 2538
+        max: 3052
+    R22_S02.fits:
+        min: 10313280
+        max: 26945280
+    R22_S02.json:
+        min: 2538
+        max: 3052
+    R22_S10.fits:
+        min: 10290240
+        max: 41457600
+    R22_S10.json:
+        min: 2539
+        max: 3052
+    R22_S11.fits:
+        min: 10313280
+        max: 41679360
+    R22_S11.json:
+        min: 2539
+        max: 3052
+    R22_S12.fits:
+        min: 10359360
+        max: 40968000
+    R22_S12.json:
+        min: 2539
+        max: 3052
+    R22_S20.fits:
+        min: 10365120
+        max: 26746560
+    R22_S20.json:
+        min: 2538
+        max: 3052
+    R22_S21.fits:
+        min: 10379520
+        max: 26847360
+    R22_S21.json:
+        min: 2538
+        max: 3052
+    R22_S22.fits:
+        min: 10333440
+        max: 26763840
+    R22_S22.json:
+        min: 2538
+        max: 3052
+    R23_S00.fits:
+        min: 10316160
+        max: 26484480
+    R23_S00.json:
+        min: 2538
+        max: 3052
+    R23_S01.fits:
+        min: 10298880
+        max: 27069120
+    R23_S01.json:
+        min: 2538
+        max: 3052
+    R23_S02.fits:
+        min: 10350720
+        max: 26974080
+    R23_S02.json:
+        min: 2538
+        max: 3052
+    R23_S10.fits:
+        min: 10347840
+        max: 27285120
+    R23_S10.json:
+        min: 2538
+        max: 3052
+    R23_S11.fits:
+        min: 10339200
+        max: 26907840
+    R23_S11.json:
+        min: 2538
+        max: 3052
+    R23_S12.fits:
+        min: 10385280
+        max: 27161280
+    R23_S12.json:
+        min: 2538
+        max: 3052
+    R23_S20.fits:
+        min: 10310400
+        max: 27247680
+    R23_S20.json:
+        min: 2539
+        max: 3052
+    R23_S21.fits:
+        min: 10307520
+        max: 27123840
+    R23_S21.json:
+        min: 2539
+        max: 3052
+    R23_S22.fits:
+        min: 10307520
+        max: 27360000
+    R23_S22.json:
+        min: 2539
+        max: 3052
+    R24_S00.fits:
+        min: 10272960
+        max: 27414720
+    R24_S00.json:
+        min: 2538
+        max: 3053
+    R24_S01.fits:
+        min: 10198080
+        max: 27221760
+    R24_S01.json:
+        min: 2538
+        max: 3053
+    R24_S02.fits:
+        min: 10218240
+        max: 27020160
+    R24_S02.json:
+        min: 2538
+        max: 3053
+    R24_S10.fits:
+        min: 10267200
+        max: 26971200
+    R24_S10.json:
+        min: 2539
+        max: 3052
+    R24_S11.fits:
+        min: 10221120
+        max: 27000000
+    R24_S11.json:
+        min: 2539
+        max: 3052
+    R24_S12.fits:
+        min: 10261440
+        max: 26904960
+    R24_S12.json:
+        min: 2539
+        max: 3052
+    R24_S20.fits:
+        min: 10203840
+        max: 27069120
+    R24_S20.json:
+        min: 2538
+        max: 3052
+    R24_S21.fits:
+        min: 10287360
+        max: 27141120
+    R24_S21.json:
+        min: 2538
+        max: 3052
+    R24_S22.fits:
+        min: 10244160
+        max: 27408960
+    R24_S22.json:
+        min: 2538
+        max: 3052
+    R30_S00.fits:
+        min: 10370880
+        max: 25908480
+    R30_S00.json:
+        min: 2538
+        max: 3051
+    R30_S01.fits:
+        min: 10316160
+        max: 26530560
+    R30_S01.json:
+        min: 2538
+        max: 3051
+    R30_S02.fits:
+        min: 10382400
+        max: 26988480
+    R30_S02.json:
+        min: 2538
+        max: 3051
+    R30_S10.fits:
+        min: 10330560
+        max: 10359360
+    R30_S10.json:
+        min: 2538
+        max: 3051
+    R30_S11.fits:
+        min: 10347840
+        max: 10373760
+    R30_S11.json:
+        min: 2538
+        max: 3051
+    R30_S12.fits:
+        min: 10330560
+        max: 10353600
+    R30_S12.json:
+        min: 2538
+        max: 3051
+    R30_S20.fits:
+        min: 10350720
+        max: 26271360
+    R30_S20.json:
+        min: 2539
+        max: 3051
+    R30_S21.fits:
+        min: 10368000
+        max: 27129600
+    R30_S21.json:
+        min: 2539
+        max: 3051
+    R30_S22.fits:
+        min: 10324800
+        max: 26366400
+    R30_S22.json:
+        min: 2539
+        max: 3051
+    R31_S00.fits:
+        min: 10336320
+        max: 27420480
+    R31_S00.json:
+        min: 2538
+        max: 3053
+    R31_S01.fits:
+        min: 10304640
+        max: 27218880
+    R31_S01.json:
+        min: 2538
+        max: 3053
+    R31_S02.fits:
+        min: 10298880
+        max: 26956800
+    R31_S02.json:
+        min: 2538
+        max: 3053
+    R31_S10.fits:
+        min: 10327680
+        max: 27325440
+    R31_S10.json:
+        min: 2539
+        max: 3052
+    R31_S11.fits:
+        min: 10353600
+        max: 27244800
+    R31_S11.json:
+        min: 2539
+        max: 3052
+    R31_S12.fits:
+        min: 10368000
+        max: 27921600
+    R31_S12.json:
+        min: 2539
+        max: 3052
+    R31_S20.fits:
+        min: 10310400
+        max: 27288000
+    R31_S20.json:
+        min: 2537
+        max: 3052
+    R31_S21.fits:
+        min: 10350720
+        max: 27901440
+    R31_S21.json:
+        min: 2537
+        max: 3052
+    R31_S22.fits:
+        min: 10327680
+        max: 27512640
+    R31_S22.json:
+        min: 2537
+        max: 3052
+    R32_S00.fits:
+        min: 10362240
+        max: 27912960
+    R32_S00.json:
+        min: 2538
+        max: 3052
+    R32_S01.fits:
+        min: 10333440
+        max: 27216000
+    R32_S01.json:
+        min: 2538
+        max: 3052
+    R32_S02.fits:
+        min: 10339200
+        max: 27100800
+    R32_S02.json:
+        min: 2538
+        max: 3052
+    R32_S10.fits:
+        min: 10333440
+        max: 27224640
+    R32_S10.json:
+        min: 2538
+        max: 3052
+    R32_S11.fits:
+        min: 10347840
+        max: 27008640
+    R32_S11.json:
+        min: 2538
+        max: 3052
+    R32_S12.fits:
+        min: 10290240
+        max: 27167040
+    R32_S12.json:
+        min: 2538
+        max: 3052
+    R32_S20.fits:
+        min: 10264320
+        max: 28350720
+    R32_S20.json:
+        min: 2538
+        max: 3052
+    R32_S21.fits:
+        min: 10319040
+        max: 27371520
+    R32_S21.json:
+        min: 2538
+        max: 3052
+    R32_S22.fits:
+        min: 10324800
+        max: 27322560
+    R32_S22.json:
+        min: 2538
+        max: 3052
+    R33_S00.fits:
+        min: 10344960
+        max: 26778240
+    R33_S00.json:
+        min: 2539
+        max: 3052
+    R33_S01.fits:
+        min: 10290240
+        max: 26461440
+    R33_S01.json:
+        min: 2539
+        max: 3052
+    R33_S02.fits:
+        min: 10287360
+        max: 27264960
+    R33_S02.json:
+        min: 2539
+        max: 3052
+    R33_S10.fits:
+        min: 10296000
+        max: 26447040
+    R33_S10.json:
+        min: 2539
+        max: 3052
+    R33_S11.fits:
+        min: 10304640
+        max: 27123840
+    R33_S11.json:
+        min: 2539
+        max: 3052
+    R33_S12.fits:
+        min: 10301760
+        max: 27141120
+    R33_S12.json:
+        min: 2539
+        max: 3052
+    R33_S20.fits:
+        min: 10307520
+        max: 26519040
+    R33_S20.json:
+        min: 2538
+        max: 3052
+    R33_S21.fits:
+        min: 10321920
+        max: 26521920
+    R33_S21.json:
+        min: 2538
+        max: 3052
+    R33_S22.fits:
+        min: 10342080
+        max: 27074880
+    R33_S22.json:
+        min: 2538
+        max: 3052
+    R34_S00.fits:
+        min: 10252800
+        max: 27996480
+    R34_S00.json:
+        min: 2538
+        max: 3052
+    R34_S01.fits:
+        min: 10281600
+        max: 27100800
+    R34_S01.json:
+        min: 2538
+        max: 3052
+    R34_S02.fits:
+        min: 10249920
+        max: 26533440
+    R34_S02.json:
+        min: 2538
+        max: 3052
+    R34_S10.fits:
+        min: 10203840
+        max: 26640000
+    R34_S10.json:
+        min: 2539
+        max: 3052
+    R34_S11.fits:
+        min: 10218240
+        max: 27077760
+    R34_S11.json:
+        min: 2539
+        max: 3052
+    R34_S12.fits:
+        min: 10249920
+        max: 26418240
+    R34_S12.json:
+        min: 2539
+        max: 3052
+    R34_S20.fits:
+        min: 10198080
+        max: 27190080
+    R34_S20.json:
+        min: 2538
+        max: 3051
+    R34_S21.fits:
+        min: 10203840
+        max: 27336960
+    R34_S21.json:
+        min: 2538
+        max: 3051
+    R34_S22.fits:
+        min: 10241280
+        max: 26164800
+    R34_S22.json:
+        min: 2538
+        max: 3051
+    R40_SG0_guider.fits:
+        min: 11520
+        max: 29661120
+    R40_SG0_guider.json:
+        min: 2453
+        max: 2863
+    R40_SG1_guider.fits:
+        min: 11520
+        max: 28091520
+    R40_SG1_guider.json:
+        min: 2453
+        max: 2863
+    R40_SW0.fits:
+        min: 6174720
+        max: 14423040
+    R40_SW0.json:
+        min: 2530
+        max: 3072
+    R40_SW1.fits:
+        min: 6163200
+        max: 14544000
+    R40_SW1.json:
+        min: 2530
+        max: 3072
+    R41_S00.fits:
+        min: 10416960
+        max: 26280000
+    R41_S00.json:
+        min: 2531
+        max: 3045
+    R41_S01.fits:
+        min: 10370880
+        max: 26913600
+    R41_S01.json:
+        min: 2531
+        max: 3045
+    R41_S02.fits:
+        min: 10399680
+        max: 27092160
+    R41_S02.json:
+        min: 2531
+        max: 3045
+    R41_S10.fits:
+        min: 10419840
+        max: 41192640
+    R41_S10.json:
+        min: 2530
+        max: 3045
+    R41_S11.fits:
+        min: 10408320
+        max: 41371200
+    R41_S11.json:
+        min: 2530
+        max: 3045
+    R41_S12.fits:
+        min: 10376640
+        max: 41175360
+    R41_S12.json:
+        min: 2530
+        max: 3045
+    R41_S20.fits:
+        min: 10382400
+        max: 24960960
+    R41_S20.json:
+        min: 2530
+        max: 3045
+    R41_S21.fits:
+        min: 10347840
+        max: 26277120
+    R41_S21.json:
+        min: 2530
+        max: 3045
+    R41_S22.fits:
+        min: 10359360
+        max: 26726400
+    R41_S22.json:
+        min: 2530
+        max: 3045
+    R42_S00.fits:
+        min: 10313280
+        max: 27371520
+    R42_S00.json:
+        min: 2530
+        max: 3044
+    R42_S01.fits:
+        min: 10356480
+        max: 27069120
+    R42_S01.json:
+        min: 2530
+        max: 3044
+    R42_S02.fits:
+        min: 10362240
+        max: 27319680
+    R42_S02.json:
+        min: 2530
+        max: 3044
+    R42_S10.fits:
+        min: 10399680
+        max: 27567360
+    R42_S10.json:
+        min: 2530
+        max: 3044
+    R42_S11.fits:
+        min: 10419840
+        max: 27774720
+    R42_S11.json:
+        min: 2530
+        max: 3044
+    R42_S12.fits:
+        min: 10388160
+        max: 26971200
+    R42_S12.json:
+        min: 2530
+        max: 3044
+    R42_S20.fits:
+        min: 10339200
+        max: 26948160
+    R42_S20.json:
+        min: 2530
+        max: 3045
+    R42_S21.fits:
+        min: 10307520
+        max: 26516160
+    R42_S21.json:
+        min: 2530
+        max: 3045
+    R42_S22.fits:
+        min: 10310400
+        max: 26844480
+    R42_S22.json:
+        min: 2530
+        max: 3045
+    R43_S00.fits:
+        min: 10347840
+        max: 27020160
+    R43_S00.json:
+        min: 2530
+        max: 3044
+    R43_S01.fits:
+        min: 10388160
+        max: 26910720
+    R43_S01.json:
+        min: 2530
+        max: 3044
+    R43_S02.fits:
+        min: 10356480
+        max: 27616320
+    R43_S02.json:
+        min: 2530
+        max: 3044
+    R43_S10.fits:
+        min: 10373760
+        max: 27195840
+    R43_S10.json:
+        min: 2530
+        max: 3044
+    R43_S11.fits:
+        min: 10373760
+        max: 26671680
+    R43_S11.json:
+        min: 2530
+        max: 3044
+    R43_S12.fits:
+        min: 10359360
+        max: 26832960
+    R43_S12.json:
+        min: 2530
+        max: 3044
+    R43_S20.fits:
+        min: 10324800
+        max: 26841600
+    R43_S20.json:
+        min: 2530
+        max: 3043
+    R43_S21.fits:
+        min: 10382400
+        max: 26631360
+    R43_S21.json:
+        min: 2530
+        max: 3043
+    R43_S22.fits:
+        min: 10336320
+        max: 24154560
+    R43_S22.json:
+        min: 2530
+        max: 3043
+    R44_SG0_guider.fits:
+        min: 11520
+        max: 26948160
+    R44_SG0_guider.json:
+        min: 2453
+        max: 2863
+    R44_SG1_guider.fits:
+        min: 11520
+        max: 28235520
+    R44_SG1_guider.json:
+        min: 2454
+        max: 2862
+    R44_SW0.fits:
+        min: 6096960
+        max: 14604480
+    R44_SW0.json:
+        min: 2530
+        max: 3072
+    R44_SW1.fits:
+        min: 6096960
+        max: 13561920
+    R44_SW1.json:
+        min: 2530
+        max: 3072
+    expectedSensors.json:
+        min: 178
+        max: 5706
+    shutterMotionProfileClose.json:
+        min: 1133
+        max: 63452
+    shutterMotionProfileOpen.json:
+        min: 63275
+        max: 63479
+summary:
+    max_file_bytes: 41679360
+    min_file_bytes: 178
+    total_files: 413
+    total_size_bytes: 5519446950
